@@ -7,8 +7,6 @@ let currentResult = defaultResult;
 // Try to display a test result
 currentResult = (currentResult + 10) * 3 / 2 - 1;
 
-console.log(currentResult);
-
 // Try to display the corresponding result
 let calculationDescription = '(' + defaultResult + ' + 10) * 3 / 2 - 1';
 
