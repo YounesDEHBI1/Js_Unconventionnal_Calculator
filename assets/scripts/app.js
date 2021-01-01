@@ -8,7 +8,7 @@ let currentResult = defaultResult;
 currentResult = (currentResult + 10) * 3 / 2 - 1;
 
 // Try to display the corresponding result
-let calculationDescription = '(' + defaultResult + ' + 10) * 3 / 2 - 1';
+let calculationDescription = `( ${ defaultResult} + 10) * 3 / 2 - 1`;
 
 // Assign operation & result to their appropriate fields
 outputResult(currentResult, calculationDescription);
